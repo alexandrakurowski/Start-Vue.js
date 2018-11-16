@@ -1,7 +1,7 @@
 <template>
     <div id="commune">
 
-        <h2>{{commune}}</h2>
+        <h2>les communes</h2>
 
     </div>
 </template>
@@ -15,7 +15,7 @@
         name: 'commune',
         data () {
             return {
-                commune: 'Les Communes',
+                commune:[] ,
             }
         },
         
